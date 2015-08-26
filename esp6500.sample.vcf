@@ -1,0 +1,65 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=DBSNP,Number=.,Type=String,Description="dbSNP version which established the rs_id">
+##INFO=<ID=EA_AC,Number=.,Type=String,Description="European American Allele Count in the order of AltAlleles,RefAllele. For INDELs, A1, A2, or An refers to the N-th alternate allele while R refers to the reference allele.">
+##INFO=<ID=AA_AC,Number=.,Type=String,Description="African American Allele Count in the order of AltAlleles,RefAllele. For INDELs, A1, A2, or An refers to the N-th alternate allele while R refers to the reference allele.">
+##INFO=<ID=TAC,Number=.,Type=String,Description="Total Allele Count in the order of AltAlleles,RefAllele For INDELs, A1, A2, or An refers to the N-th alternate allele while R refers to the reference allele.">
+##INFO=<ID=MAF,Number=.,Type=String,Description="Minor Allele Frequency in percent in the order of EA,AA,All">
+##INFO=<ID=GTS,Number=.,Type=String,Description="Observed Genotypes. For INDELs, A1, A2, or An refers to the N-th alternate allele while R refers to the reference allele.">
+##INFO=<ID=EA_GTC,Number=.,Type=String,Description="European American Genotype Counts in the order of listed GTS">
+##INFO=<ID=AA_GTC,Number=.,Type=String,Description="African American Genotype Counts in the order of listed GTS">
+##INFO=<ID=GTC,Number=.,Type=String,Description="Total Genotype Counts in the order of listed GTS">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Average Sample Read Depth">
+##INFO=<ID=AA,Number=1,Type=String,Description="chimpAllele">
+##INFO=<ID=FG,Number=.,Type=String,Description="functionGVS">
+##INFO=<ID=HGVS_CDNA_VAR,Number=.,Type=String,Description="HGVS Coding DNA Variant">
+##INFO=<ID=HGVS_PROTEIN_VAR,Number=.,Type=String,Description="HGVS Protein Variant">
+##INFO=<ID=CDS_SIZES,Number=.,Type=String,Description="Coding DNA Sizes">
+##INFO=<ID=PH,Number=.,Type=String,Description="polyPhen2 result including prediction class and score">
+##INFO=<ID=CP,Number=1,Type=Float,Description="scorePhastCons">
+##INFO=<ID=CG,Number=1,Type=Float,Description="consScoreGERP">
+##INFO=<ID=GL,Number=.,Type=String,Description="geneList">
+##INFO=<ID=GS,Number=.,Type=String,Description="granthamScore">
+##INFO=<ID=CA,Number=.,Type=String,Description="clinicalAssociation">
+##INFO=<ID=EXOME_CHIP,Number=.,Type=String,Description="Whether a SNP is on the Illumina HumanExome Chip">
+##FILTER=<ID=INDEL5,Description="Nearby 1000 Genomes Pilot Indels within 5bp">
+##FILTER=<ID=SVM,Description="Failed SVM-based filter at threshold 0.3. (detailed at http://evs.gs.washington.edu/EVS/HelpSNPSummary.jsp#FilterStatus)">
+##INFO=<ID=GWAS_PUBMED,Number=.,Type=String,Description="PubMed records for GWAS hits">
+##INFO=<ID=EA_AGE,Number=.,Type=String,Description="Esitmated Variant Age in kilo years for the European American Population">
+##INFO=<ID=AA_AGE,Number=.,Type=String,Description="Esitmated Variant Age in kilo years for the African American Population">
+##QueryTarget=Y:1-59373566
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=X>
+##contig=<ID=Y>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	69428	rs140739101	T	G	.	PASS	DBSNP=dbSNP_134;EA_AC=313,6535;AA_AC=14,3808;TAC=327,10343;MAF=4.5707,0.3663,3.0647;GTS=GG,GT,TT;EA_GTC=92,129,3203;AA_GTC=1,12,1898;GTC=93,141,5101;DP=110;GL=OR4F5;CP=1;CG=0.9;AA=T;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_001005484.1:missense;HGVS_CDNA_VAR=NM_001005484.1:c.338T>G;HGVS_PROTEIN_VAR=NM_001005484.1:p.(F113C);CDS_SIZES=NM_001005484.1:918;GS=205;PH=probably-damaging:0.999;EA_AGE=.;AA_AGE=.
+1	69476	rs148502021	T	C	.	PASS	DBSNP=dbSNP_134;EA_AC=2,7020;AA_AC=0,3908;TAC=2,10928;MAF=0.0285,0.0,0.0183;GTS=CC,CT,TT;EA_GTC=1,0,3510;AA_GTC=0,0,1954;GTC=1,0,5464;DP=123;GL=OR4F5;CP=0.6;CG=2.3;AA=T;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_001005484.1:missense;HGVS_CDNA_VAR=NM_001005484.1:c.386T>C;HGVS_PROTEIN_VAR=NM_001005484.1:p.(M129T);CDS_SIZES=NM_001005484.1:918;GS=81;PH=possibly-damaging:0.932;EA_AGE=.;AA_AGE=.
+1	69496	rs150690004	G	A	.	PASS	DBSNP=dbSNP_134;EA_AC=2,6764;AA_AC=23,3785;TAC=25,10549;MAF=0.0296,0.604,0.2364;GTS=AA,AG,GG;EA_GTC=0,2,3381;AA_GTC=5,13,1886;GTC=5,15,5267;DP=91;GL=OR4F5;CP=0.5;CG=2.3;AA=G;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_001005484.1:missense;HGVS_CDNA_VAR=NM_001005484.1:c.406G>A;HGVS_PROTEIN_VAR=NM_001005484.1:p.(G136S);CDS_SIZES=NM_001005484.1:918;GS=56;PH=benign:0.401;EA_AGE=.;AA_AGE=.
+1	69511	rs75062661	A	G	.	PASS	DBSNP=dbSNP_131;EA_AC=5337,677;AA_AC=1937,1623;TAC=7274,2300;MAF=11.2571,45.5899,24.0234;GTS=GG,GA,AA;EA_GTC=2430,477,100;AA_GTC=784,369,627;GTC=3214,846,727;DP=69;GL=OR4F5;CP=1;CG=1.1;AA=G;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_001005484.1:missense;HGVS_CDNA_VAR=NM_001005484.1:c.421A>G;HGVS_PROTEIN_VAR=NM_001005484.1:p.(T141A);CDS_SIZES=NM_001005484.1:918;GS=58;PH=benign:0.0;EA_AGE=.;AA_AGE=.
+1	69590	rs141776804	T	A	.	PASS	DBSNP=dbSNP_134;EA_AC=0,6214;AA_AC=1,3555;TAC=1,9769;MAF=0.0,0.0281,0.0102;GTS=AA,AT,TT;EA_GTC=0,0,3107;AA_GTC=0,1,1777;GTC=0,1,4884;DP=119;GL=OR4F5;CP=0.8;CG=2.3;AA=T;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_001005484.1:missense;HGVS_CDNA_VAR=NM_001005484.1:c.500T>A;HGVS_PROTEIN_VAR=NM_001005484.1:p.(V167D);CDS_SIZES=NM_001005484.1:918;GS=152;PH=possibly-damaging:0.956;EA_AGE=.;AA_AGE=.
+22	17640176	.	GCC	GCCC,G,GC	.	PASS	DBSNP=.;EA_AC=138,67,58,475;AA_AC=83,14,26,199;TAC=221,81,84,674;MAF=35.6369,38.1988,36.4151;GTS=A1A1,A1A2,A1A3,A1R,A2A2,A2A3,A2R,A3A3,A3R,RR;EA_GTC=67,1,1,2,32,0,2,25,7,232;AA_GTC=41,0,0,1,7,0,0,13,0,99;GTC=108,1,1,3,39,0,2,38,7,331;DP=1;GL=CECR5;CP=0;CG=-0.2;AA=.;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_017829.5:intron,NM_017829.5:intron,NM_017829.5:intron;HGVS_CDNA_VAR=NM_017829.5:c.36+5922del1,NM_017829.5:c.36+5921_36+5922del2,NM_017829.5:c.36+5922_36+5923insG;HGVS_PROTEIN_VAR=.,.,.;CDS_SIZES=NM_017829.5:1182,NM_017829.5:1182,NM_017829.5:1182;GS=.,.,.;PH=.,.,.;EA_AGE=.;AA_AGE=.
+22	18072333	rs66817644	ACTTT	A,ACTTCTTT	.	PASS	DBSNP=dbSNP_130;EA_AC=1,1450,6803;AA_AC=4,151,4109;TAC=5,1601,10912;MAF=17.5794,3.6351,12.8295;GTS=A1A1,A1A2,A1R,A2A2,A2R,RR;EA_GTC=0,0,1,128,1194,2804;AA_GTC=0,1,3,4,142,1982;GTC=0,1,4,132,1336,4786;DP=66;GL=SLC25A18;CP=0;CG=-6;AA=.;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_031481.1:intron,NM_031481.1:intron;HGVS_CDNA_VAR=NM_031481.1:c.731-23_731-22insACTTCTTT,NM_031481.1:c.731-22_731-19del4;HGVS_PROTEIN_VAR=.,.;CDS_SIZES=NM_031481.1:948,NM_031481.1:948;GS=.,.;PH=.,.;EA_AGE=.;AA_AGE=.
+22	18222877	rs71690189	CAACTGCCACGCTC	C,CACTGCCACGCTC	.	PASS	DBSNP=dbSNP_130;EA_AC=727,46,5875;AA_AC=969,21,2416;TAC=1696,67,8291;MAF=11.6276,29.0664,17.5353;GTS=A1A1,A1A2,A1R,A2A2,A2R,RR;EA_GTC=107,0,513,22,2,2680;AA_GTC=253,0,463,10,1,976;GTC=360,0,976,32,3,3656;DP=27;GL=BID;CP=0;CG=-0.6;AA=.;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_197967.2:intron,NM_197967.2:intron,NM_197966.2:intron,NM_197966.2:intron,NM_001244572.1:intron,NM_001244572.1:intron,NM_001244570.1:intron,NM_001244570.1:intron,NM_001244569.1:intron,NM_001244569.1:intron,NM_001244567.1:intron,NM_001244567.1:intron,NM_001196.3:intron,NM_001196.3:intron;HGVS_CDNA_VAR=NM_197967.2:c.-689del14,NM_197967.2:c.-701_-689del13,NM_197966.2:c.362-624del14,NM_197966.2:c.362-636_362-624del13,NM_001244572.1:c.-689del14,NM_001244572.1:c.-701_-689del13,NM_001244570.1:c.-689del14,NM_001244570.1:c.-701_-689del13,NM_001244569.1:c.-689del14,NM_001244569.1:c.-701_-689del13,NM_001244567.1:c.224-624del14,NM_001244567.1:c.224-636_224-624del13,NM_001196.3:c.224-624del14,NM_001196.3:c.224-636_224-624del13;HGVS_PROTEIN_VAR=.,.,.,.,.,.,.,.,.,.,.,.,.,.;CDS_SIZES=NM_197967.2:300,NM_197967.2:300,NM_197966.2:726,NM_197966.2:726,NM_001244572.1:300,NM_001244572.1:300,NM_001244570.1:300,NM_001244570.1:300,NM_001244569.1:300,NM_001244569.1:300,NM_001244567.1:588,NM_001244567.1:588,NM_001196.3:588,NM_001196.3:588;GS=.,.,.,.,.,.,.,.,.,.,.,.,.,.;PH=.,.,.,.,.,.,.,.,.,.,.,.,.,.;EA_AGE=.;AA_AGE=.
+22	18314678	.	TTCC	T,TTCCTCC	.	PASS	DBSNP=.;EA_AC=153,7,7282;AA_AC=72,152,3480;TAC=225,159,10762;MAF=2.15,6.0475,3.4452;GTS=A1A1,A1A2,A1R,A2A2,A2R,RR;EA_GTC=22,0,109,0,7,3583;AA_GTC=14,0,44,17,118,1659;GTC=36,0,153,17,125,5242;DP=79;GL=MICAL3;CP=0.4;CG=-0.3;AA=.;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_015241.2:coding,NM_015241.2:coding;HGVS_CDNA_VAR=NM_015241.2:c.2996_2997insGGA,NM_015241.2:c.2994_2996del3;HGVS_PROTEIN_VAR=NM_015241.2:p.(E999delinsEE),NM_015241.2:p.(E998_E999delinsE);CDS_SIZES=NM_015241.2:6009,NM_015241.2:6009;GS=.,.;PH=.,.;EA_AGE=.;AA_AGE=.
+22	24199764	rs66928071	AC	ACC,ACCCC,ACCC,A	.	PASS	DBSNP=dbSNP_130;EA_AC=792,151,754,865,4244;AA_AC=1136,57,195,239,1537;TAC=1928,208,949,1104,5781;MAF=37.6433,51.4223,42.016;GTS=A1A1,A1A2,A1A3,A1A4,A1R,A2A2,A2A3,A2A4,A2R,A3A3,A3A4,A3R,A4A4,A4R,RR;EA_GTC=169,16,88,42,308,33,10,4,55,144,13,355,79,648,1439;AA_GTC=392,8,46,29,269,13,3,0,20,46,2,52,39,130,533;GTC=561,24,134,71,577,46,13,4,75,190,15,407,118,778,1972;DP=10;GL=SLC2A11;CP=0;CG=-0.8;AA=.;CA=.;EXOME_CHIP=no;GWAS_PUBMED=.;FG=NM_030807.3:intron,NM_030807.3:intron,NM_030807.3:intron,NM_030807.3:intron,NM_001024938.2:intron,NM_001024938.2:intron,NM_001024938.2:intron,NM_001024938.2:intron;HGVS_CDNA_VAR=NM_030807.3:c.42+47del1,NM_030807.3:c.42+46_42+47insCC,NM_030807.3:c.42+46_42+47insCCC,NM_030807.3:c.42+46_42+47insC,NM_001024938.2:c.21+587del1,NM_001024938.2:c.21+586_21+587insCC,NM_001024938.2:c.21+586_21+587insCCC,NM_001024938.2:c.21+586_21+587insC;HGVS_PROTEIN_VAR=.,.,.,.,.,.,.,.;CDS_SIZES=NM_030807.3:1512,NM_030807.3:1512,NM_030807.3:1512,NM_030807.3:1512,NM_001024938.2:1491,NM_001024938.2:1491,NM_001024938.2:1491,NM_001024938.2:1491;GS=.,.,.,.,.,.,.,.;PH=.,.,.,.,.,.,.,.;EA_AGE=.;AA_AGE=.

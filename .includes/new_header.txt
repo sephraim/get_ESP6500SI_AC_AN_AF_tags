@@ -1,0 +1,40 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=DBSNP,Number=.,Type=String,Description="dbSNP version which established the rs_id">
+##INFO=<ID=EVS_ALL_AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=EVS_ALL_AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=EVS_ALL_AF,Number=A,Type=Float,Description="Estimated allele frequency in all populations in the range (0,1)">
+##INFO=<ID=EVS_EA_AC,Number=A,Type=Integer,Description="Number of alternate alleles in called genotypes in the European American population">
+##INFO=<ID=EVS_EA_AN,Number=1,Type=Integer,Description="Number of alleles in called genotypes in the European American population">
+##INFO=<ID=EVS_EA_AF,Number=A,Type=Float,Description="Allele frequency in the European American populations calculated from AC and AN, in the range (0,1)">
+##INFO=<ID=EVS_AA_AC,Number=A,Type=Integer,Description="Number of alternate alleles in called genotypes in the African American population">
+##INFO=<ID=EVS_AA_AN,Number=1,Type=Integer,Description="Number of alleles in called genotypes in the African American population">
+##INFO=<ID=EVS_AA_AF,Number=A,Type=Float,Description="Allele frequency in the African American populations calculated from AC and AN, in the range (0,1)">
+##FILTER=<ID=INDEL5,Description="Nearby 1000 Genomes Pilot Indels within 5bp">
+##FILTER=<ID=SVM,Description="Failed SVM-based filter at threshold 0.3. (detailed at http://evs.gs.washington.edu/EVS/HelpSNPSummary.jsp#FilterStatus)">
+##QueryTarget=Y:1-59373566
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=X>
+##contig=<ID=Y>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
