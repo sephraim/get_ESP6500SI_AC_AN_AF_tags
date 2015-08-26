@@ -1,4 +1,4 @@
-# Improve ESP6500 VCF readability
+# Get ESP6500SI AC, AN, and AF tags
 
 This script will convert the downloadable ESP6500 VCF file into a more readable format that separates out the allele counts and frequencies in a way that is similar to ExAC and 1000 Genomes.
 
@@ -10,7 +10,6 @@ The point of this script is to split out these fields in a way that makes sense 
 
 The INFO field will be pared down to only the following tags:
 
-- **DBSNP** - dbSNP version which established the rs_id
 - **EVS\_ALL\_AC** - Total number of alternate alleles in called genotypes
 - **EVS\_ALL\_AN** - Total number of alleles in called genotypes
 - **EVS\_ALL\_AF** - Estimated allele frequency in all populations in the range (0,1)
@@ -29,17 +28,17 @@ First, you will need to download the original VCF files from the EVS server [her
 
 This script comes with a sample file that you can use to see what the output will look like. You can run the script like follows:
 
-    ./improve_ESP6500_VCF_readability.sh esp6500.sample.vcf esp6500.sample.NEW.vcf.gz
+    ./get_ESP6500SI_AC_AN_AF_tags.sh esp6500.sample.vcf esp6500.sample.NEW.vcf.gz
 
 #### Input file (argument #1):
-- Original ESP6500 .vcf/vcf.gz/bcf/bcf.gz file
+- Original ESP6500SI .vcf/vcf.gz/bcf/bcf.gz file
 
 #### Output file (argument #2):
-- Altered ESP6500 .vcf.gz file (with .tbi index file) with easier to read allele counts and freqs
+- Altered ESP6500SI .vcf.gz file (with .tbi index file) with easier to read allele counts and freqs
 
 ## Requirements
 
-- *bcftools* must be in your $PATH
+- *bcftools* must be in your $PATH (download it [here](https://github.com/samtools/bcftools/releases))
 
 ## Author
 
