@@ -6,9 +6,10 @@
 # @param file Name of header file
 function print_header(file) {
   # Print header
-  while(( getline < file) > 0 ) {
+  while (( getline < file) > 0 ) {
      print
   }
+  close(file)
 }
 
 # Parse AC AN AF
