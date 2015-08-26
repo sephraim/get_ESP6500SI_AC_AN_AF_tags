@@ -35,5 +35,5 @@ BEGIN {
   parse_ac_an_af($10, all_ac_an_af)
 
   # Print record
-  print $1, $2, $3, $4, $5, $6, $7, "DBSNP=" $11 ";EVS_ALL_AC=" all_ac_an_af[1] ";EVS_ALL_AN=" all_ac_an_af[2] ";EVS_ALL_AF=" all_ac_an_af[3] ";EVS_EA_AC=" ea_ac_an_af[1] ";EVS_EA_AN=" ea_ac_an_af[2] ";EVS_EA_AF=" ea_ac_an_af[3] ";EVS_AA_AC=" aa_ac_an_af[1] ";EVS_AA_AN=" aa_ac_an_af[2] ";EVS_AA_AF=" aa_ac_an_af[3]
+  print $1, $2, $3, $4, $5, $6, $7, "EVS_ALL_AC=" all_ac_an_af[1] ";EVS_ALL_AN=" all_ac_an_af[2] ";EVS_ALL_AF=" all_ac_an_af[3] ";EVS_EA_AC=" ea_ac_an_af[1] ";EVS_EA_AN=" ea_ac_an_af[2] ";EVS_EA_AF=" ea_ac_an_af[3] ";EVS_AA_AC=" aa_ac_an_af[1] ";EVS_AA_AN=" aa_ac_an_af[2] ";EVS_AA_AF=" aa_ac_an_af[3]
 }

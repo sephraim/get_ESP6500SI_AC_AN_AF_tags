@@ -1,6 +1,5 @@
 ##fileformat=VCFv4.1
 ##FILTER=<ID=PASS,Description="All filters passed">
-##INFO=<ID=DBSNP,Number=.,Type=String,Description="dbSNP version which established the rs_id">
 ##INFO=<ID=EVS_ALL_AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
 ##INFO=<ID=EVS_ALL_AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
 ##INFO=<ID=EVS_ALL_AF,Number=A,Type=Float,Description="Estimated allele frequency in all populations in the range (0,1)">
