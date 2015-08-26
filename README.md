@@ -28,7 +28,7 @@ First, you will need to download the original VCF files from the EVS server [her
 
 This script comes with a sample file that you can use to see what the output will look like. You can run the script like follows:
 
-    ./get_ESP6500SI_AC_AN_AF_tags.sh esp6500.sample.vcf esp6500.sample.NEW.vcf.gz
+    ./get_ESP6500SI_AC_AN_AF_tags.sh esp6500SI.sample.vcf esp6500SI.sample.NEW.vcf.gz
 
 #### Input file (argument #1):
 - Original ESP6500SI .vcf/vcf.gz/bcf/bcf.gz file
